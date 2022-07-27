@@ -19,6 +19,7 @@ body {
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
+    line-height: inherit;
 }
 
 .leftSide {
@@ -37,38 +38,7 @@ img {
     position: relative;
     left: 20%;
     margin: 10%;
-}
-
-.leftSide ul {
-    margin: 5;
-    margin-left: 0;
-    margin-right: 5;
-    padding: 50;
-}
-
-.rightSide ul {
-    margin: 5;
-    margin-left: 5;
-    margin-right: 2;
-    padding: 100;
-
-}
-
-ul.BUT {
-    background-color: aquamarine;
-    padding: 5%;
-}
-
-.titre {
-    color: black;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1%;
-    margin-bottom: 20%;
-    font-size: 1.6em;
-}
-
-.nom {
+}.nom {
     color: black;
     text-transform: uppercase;
     font-weight: 600;
@@ -77,51 +47,27 @@ ul.BUT {
     font-size: 2em;
 }
 
-.text {
-    color: black;
-    letter-spacing: 1%;
-    margin-bottom: 5%;
-    font-size: 1.15em;
-    margin-left: 0;
+pre.BUT {
+    background-color: aquamarine;
+    padding: 5%;
+}
 
+.titre {
+}
+
+.text {
 }
 
 .text2 {
-    color: black;
-    letter-spacing: 1%;
-    margin-bottom: 5%;
-    font-size: 1.3em;
-    margin-left: 0;
-    text-transform: uppercase;
+
 }
 
 .text2g {
-    color: gray;
-    letter-spacing: 1%;
-    margin-bottom: 5%;
-    font-size: 1.3em;
-    margin-left: 0;
-    text-transform: uppercase;
+
 }
 
 .text2b {
-    color: black;
-    letter-spacing: 1%;
-    margin-bottom: 5%;
-    font-size: 1.3em;
-    margin-left: 0;
-    text-transform: uppercase;
-    font-weight: 600;
-}
 
-.over {
-    position: relative;
-    right: 53.3%;
-    color: black;
-    letter-spacing: 1%;
-    margin-bottom: 5%;
-    font-size: 1.3em;
-    margin-left: 0;
 }
 
 * {
@@ -129,53 +75,32 @@ ul.BUT {
     list-style: none;
     list-style-position: outside;
 
-}
-
-ul {
-    margin: 5%;
-    padding: 3%;
 
 }
 
-.ul2 {
-    margin: 4%;
-}
-
-li {
-    padding: 1.5%;
-}
-
-.icon {}
-
-.PASSR-TEMPS {
-    letter-spacing: 5px;
-
-}
-
-.contenu {
+pre {
     margin: 0;
-    padding: 3%;
+    padding: 0;
 }
 
-.box .percent {
+.icon {
+color: rgb(25, 94, 71);
+}
+
+pre .box {
     position: relative;
-    left: 34.5%;
-    bottom: 5%;
-    width: 60%;
-    height: 16px;
-    background: #081921;
-    margin-top: 5px;
-    padding: 50;
+    left: 4.5%;
+    width: 40px;
+    height: inherit;
+    background: #278ebe;
 }
 
-.box .percent div {
+pre .box .percent {
     position: absolute;
     top: 0;
     left: 0%;
     height: 100%;
     background: aquamarine;
-    padding: 50;
-
 }
 
 div.box {
