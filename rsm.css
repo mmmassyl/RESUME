@@ -1,4 +1,10 @@
-html {
+@media print {
+    .body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm; 
+   } 
+}html {
     height: 100%;
     width: 100%;
 
@@ -17,8 +23,8 @@ body {
     grid-template-columns: 1fr 2fr;
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .leftSide {
@@ -36,7 +42,7 @@ img {
     border-radius: 50%;
     position: relative;
     left: 20%;
-    margin: 10%;
+    margin-top: 20%;
 }
 
 .leftSide ul {
@@ -55,8 +61,9 @@ img {
 }
 
 ul.BUT {
-    background-color: aquamarine;
-    padding: 5%;
+    background-color: tomato;
+    margin-top: 8%;
+    margin-left: 0;
 }
 
 .titre {
@@ -65,16 +72,16 @@ ul.BUT {
     font-weight: 600;
     letter-spacing: 1%;
     margin-bottom: 20%;
-    font-size: 1.6em;
+    font-size: 1.9em;
 }
 
 .nom {
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1%;
     margin-bottom: 20%;
-    font-size: 2em;
+    font-size: 3rem;
 }
 
 .text {
@@ -105,12 +112,12 @@ ul.BUT {
 }
 
 .text2b {
-    color: black;
+    color: white;
     letter-spacing: 1%;
     margin-bottom: 5%;
-    font-size: 1.3em;
+    font-size: 1.8em;
+    font-style: italic;
     margin-left: 0;
-    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -141,16 +148,15 @@ ul {
     margin: 4%;
 }
 
-li {
+.leftSide li {
     padding: 1.5%;
 }
 
-.icon {}
-
-.PASSR-TEMPS {
-    letter-spacing: 5px;
-
+.icon {
+    color: tomato;
+    font-size: 1.4em;
 }
+
 
 .contenu {
     margin: 0;
@@ -173,7 +179,7 @@ li {
     top: 0;
     left: 0%;
     height: 100%;
-    background: aquamarine;
+    background: tomato;
     padding: 50;
 
 }
@@ -181,8 +187,23 @@ li {
 div.box {
     padding: 3%;
 }
+.COORDONNÉES{
+    margin-top: 20%;
 
+}
 .FORMATIONS {
-    margin-top: 0;
-    padding-top: 6.5%;
+    margin-top: 4%;
+}
+
+.leftSide .text {
+    margin-left: 2%;
+    font-size: 1.5rem;
+    }
+.QUALITES .text {
+margin-left: 6%;
+}
+
+.LANGUES .text {
+    margin-left: 6%;
+
 }
