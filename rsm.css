@@ -9,16 +9,17 @@
     margin: 0;
     padding: 0;
 }
-.text{
-    font-size: 2rem;
 }
+* {
+    font-family: sans-serif;
+    list-style: none;
+    list-style-position: outside;
+
 }
 html {
     height: 100%;
     width: 100%;
-
 }
-
 body {
     background-color:#E7E7E7;
     display: flex;
@@ -26,7 +27,6 @@ body {
     height: 99%;
     width: 99%;
 }
-
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -35,16 +35,30 @@ body {
     margin-left: 6%;
     margin-right: 6%;
 }
-
 .leftSide {
     background-color: white;
 
 }
-
 .rightSide {
     background-color: white;
 }
-
+ul {
+    margin: 5%;
+    padding: 3%;
+}
+.icon {
+    color: tomato;
+    font-size: 1.4em;
+}
+.leftSide ul {
+    margin: 5;
+    margin-left: 0;
+    margin-right: 5;
+    padding: 50;
+}
+.leftSide li {
+    padding: 1.5%;
+}
 img {
     width: 50%;
     height: auto;
@@ -53,36 +67,19 @@ img {
     left: 20%;
     margin-top: 20%;
 }
-
-.leftSide ul {
-    margin: 5;
-    margin-left: 0;
-    margin-right: 5;
-    padding: 50;
-}
-
 .rightSide ul {
     margin: 5;
     margin-left: 5;
     margin-right: 2;
     padding: 100;
-
 }
+
 
 ul.BUT {
     background-color: tomato;
     margin-top: 8%;
     margin-left: 0;
 }
-
-.titre {
-    color: black;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 20%;
-    font-size: 1.9em;
-}
-
 .nom {
     color: white;
     text-transform: uppercase;
@@ -90,7 +87,13 @@ ul.BUT {
     margin-bottom: 20%;
     font-size: 3rem;
 }
-
+.titre {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20%;
+    font-size: 1.9em;
+}
 .text {
     color: black;
     margin-bottom: 5%;
@@ -148,37 +151,8 @@ ul.BUT {
     font-size: 1.8em;
     margin-left: 0;
 }
-
-* {
-    font-family: sans-serif;
-    list-style: none;
-    list-style-position: outside;
-
-}
-
-ul {
-    margin: 5%;
-    padding: 3%;
-
-}
-
 .ul2 {
     margin: 4%;
-}
-
-.leftSide li {
-    padding: 1.5%;
-}
-
-.icon {
-    color: tomato;
-    font-size: 1.4em;
-}
-
-
-.contenu {
-    margin: 0;
-    padding: 3%;
 }
 
 .box .percent {
@@ -191,7 +165,6 @@ ul {
     margin-top: 5px;
     padding: 50;
 }
-
 .box .percent div {
     position: absolute;
     top: 0;
@@ -199,9 +172,7 @@ ul {
     height: 100%;
     background: tomato;
     padding: 50;
-
 }
-
 div.box {
     padding: 3%;
 }
