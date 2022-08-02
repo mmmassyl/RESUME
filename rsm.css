@@ -47,7 +47,7 @@ ul {
     padding: 3%;
 }
 .icon {
-    color: tomato;
+    color:rgb(51, 32, 144);
     font-size: 1.4em;
 }
 .leftSide ul {
@@ -76,7 +76,7 @@ img {
 
 
 ul.BUT {
-    background-color: tomato;
+    background-color: #000091;
     margin-top: 8%;
     margin-left: 0;
 }
@@ -93,6 +93,14 @@ ul.BUT {
     font-weight: 600;
     margin-bottom: 20%;
     font-size: 1.9em;
+    letter-spacing:0.2rem;
+}
+.titre::after{
+    content: '.';
+    background: #000091;
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
 }
 .text {
     color: black;
