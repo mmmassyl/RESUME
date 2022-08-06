@@ -102,9 +102,9 @@ ul.BUT {
     font-size: 10px;
     font-weight: 400;
 }
+
 .text {
     color: black;
-    margin-bottom: 5%;
     font-size: 1.8em;
     margin-left: 0;
 
@@ -201,7 +201,56 @@ div.box {
     margin-bottom: 0%;   
 }
 .QUALITES .text {
-margin-left: 6%;
+}
+
+#QUALITES button{
+    display: none;
+}
+#QUALITES .text {
+    margin: none;    
+}
+#QUALITES::after{
+    content: 'Расцветали';
+    color: #000091;
+    background: none;
+	border: 0px;
+
+}
+#QUALITES:hover::after{
+    content: 'Rastsvetali';
+    width: initial;
+
+}
+#QUALITES:active::after {
+    content: 'Flourished';
+
+}
+
+
+
+
+
+
+
+#QUALITES0 button{
+    display: none;
+}
+#QUALITES0 .text {
+    margin: none;    
+}
+#QUALITES0::after{
+    content: 'яблони';
+    color: #000091;
+    background: none;
+	border: 0px;
+}
+#QUALITES0:hover::after{
+    content: 'yabloni';
+
+}
+#QUALITES0:active::after {
+    content: 'pommiers';
+
 }
 
 .LANGUES .text {
